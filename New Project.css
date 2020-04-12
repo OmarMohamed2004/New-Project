@@ -1,0 +1,340 @@
+/* Start Header */
+header{
+    border-top:5px solid #76c38f;
+    background-color:#290000;
+    padding:50px 0
+}
+header .container .logo{
+    width:20%;
+    float:left
+}
+header .logo h1{
+    color:#FFF;
+    margin-bottom:0;
+    margin-top:0
+}
+header .logo h4{
+    color:#979797;
+    margin-top:0
+}
+header .container nav{
+    width:80%;
+    float:right
+}
+header .container nav ul{
+    list-style-type:none;
+    float:right;
+    margin-top:20px
+}
+header nav ul li{
+    display:inline;
+    margin-left:5px;
+    margin-left:40px
+}
+header nav ul li a{
+    text-decoration:none;
+    color:#FFF;
+    padding:20px
+}
+header nav ul li a:hover{
+    background-color:#76c38f;
+    border-radius:10px;
+    transition: background-color 0.3s
+}
+header nav ul li:first-child a{
+    background-color:#76c38f;
+    border-radius:10px;
+    transition:
+}
+header .container .description{
+    overflow:auto;
+}
+header .container .description .slider-text , header .container .description .slider-photo {
+    width:50%
+}
+header .container .description .slider-text{
+    float:left;
+    margin-top:50px
+}
+header .container .description .slider-text p , header .container .description .slider-text button{
+    margin-left:10%
+}
+header .container .description .slider-text p:first-child{
+    color:#FFF;
+    font-size:4em;
+    margin-bottom:20px
+}
+header .container .description .slider-text p:last-of-type{
+    color:#979797;
+    width:42%;
+    margin-top:10px
+}
+header .container .description .slider-text button{
+    background-color:#76c38f;
+    color:#FFF;
+    border-radius:10px;
+    padding:10px 20px;
+    border:none
+}
+header .container .description .slider-photo{
+    float:left;
+    height:500px;
+    width:500px;
+    border-radius:50%;
+    border:25px solid #6b6b6b;
+    background-color:#333333;
+    margin-top:20px;
+    color:#FFF;
+    text-align:center;
+    position:relative
+}
+header .container .description .slider-photo p{
+    position:absolute;
+    top:160px;
+    left:120px;
+    font-size:3em
+
+}
+/* End Header */
+
+/* Start Services */
+.services , .latest-work{
+    background-color:#660000;
+    padding:50px
+}
+.services .container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap
+}
+.services .container > div{
+    width:20%;
+    background-color:#FFF;
+    height:auto;
+    padding:15px
+}
+.services .container div:hover{
+    background-color:#76c38f;
+    transition:all 0.3s ease
+}
+.services .container div:hover span , .services .container div:hover h1, .services .container div:hover p{
+    color:#FFF;
+    transition:all 0.3s ease
+}
+.services .container div:hover span{
+    background-color:#FFF;
+    color:#333333
+}
+.services .container > div .service-picture{
+    width:120px;
+    height:120px;
+    background-color:#333333;
+    display:block;
+    margin:10px auto;
+    text-align:center;
+    color:#FFF;
+    line-height:120px;
+    font-weight:bold
+}
+.services .container > div h1{
+    color:#333333;
+    font-size:3em;
+    width: 70%;
+    text-align: center;
+    margin:20px auto;
+}
+.services .container > div p{
+    color:#979797;
+    width:70%;
+    margin:auto;
+    text-align:center;
+}
+/* End Services */
+
+/* Start Latest Work */
+.latest-work hr{
+    border:none;
+    border-top:2px solid #333333;
+    width:80%;
+    margin:auto
+}
+.latest-work h1{
+    background-color:#333333;
+    color:#FFF;
+    text-align:center;
+    width:10%;
+    margin:20px auto;
+    padding:5px 0;
+    border-radius:8px;
+    margin-top:-25px;
+    margin-bottom:50px
+}
+.latest-work .container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap
+}
+.latest-work .container > div{
+    background-color:#FFF;
+    padding:7px;
+    width:30%;
+}
+.latest-work .container > div:hover{
+    background-color:#76c38f;
+    transition:all 0.3s ease
+}
+.latest-work .container > div:hover span span{
+    visibility:hidden;
+}
+.latest-work .container > div:nth-child(n+4){
+    margin-top:71px
+}
+.latest-work .container > div > span{
+    display:inline-block;
+    width:100%;
+    height:100%;
+    background-color:#333333;
+    color:#FFF;
+    position:relative;
+    text-align:center;
+    line-height:190px;
+}
+.latest-work .container > div > span span{
+    position:absolute;
+    bottom:0;
+    display:block;
+    text-align:center;
+    width:100%;
+    background-color:#151515;
+    padding:5px;
+    font-size:20px;
+    line-height:1.15;
+}
+/* End Latest Work */
+
+/* Start Footer */
+
+/* First Div */
+footer .green{
+    color:#76c38f
+}
+footer .gray{
+    color:#979797
+}
+footer{
+    background-color:#303030;
+    padding:20px 0;
+    border-bottom:2px solid #000000
+}
+footer .container{
+    display:flex;
+    justify-content:space-between
+}
+footer .container > div{
+    width:24%
+
+}
+footer .container > div h3{
+    color:#ffffff;
+    font-weight:100;
+    margin-bottom:30px;
+    text-transform:capitalize
+}
+footer .container > div:first-child p:first-of-type{
+    font-weight:bold
+}
+footer .container > div:first-child span:nth-of-type(2){
+    color:#666666
+}
+footer .container > div:first-child time{
+    display:block
+}
+footer .container > div:first-child  time{
+    color:#979797;
+    margin-top:10px
+}
+footer .container > div p:nth-of-type(2){
+    width:64%
+}
+/* End First Div */
+
+/* Second Div */
+footer .container > div:nth-child(2) ul{
+    list-style-type:none;
+    padding-left:0
+}
+footer .container > div:nth-child(2) ul li:before{
+    content:'»';
+    color:#979797;
+    margin-right:4px
+}
+footer .container > div:nth-child(2) ul li{
+    border-bottom:1px solid #404040;
+    padding:8px 0
+}
+footer .container > div:nth-child(2) ul li a{
+    color:#76c38f;
+    text-decoration:none
+}
+/* End Second Div */
+
+/* Third Div */
+footer .container > div:nth-child(3){
+    margin-left:15px
+}
+footer .container > div:nth-child(3) p:first-of-type{
+    margin-bottom:40px
+}
+/* End Third Div */
+
+/* Start Fourth Div */
+footer .container > div:nth-child(4) form input , textarea{
+    display:block;
+    border-radius:10px;
+    border:2px solid #222222;
+    background-color:#222222;
+    padding:8px;
+    margin:10px 0;
+}
+footer .container > div:nth-child(4) form input:not([type="submit"]) , textarea{
+    width:100%
+}
+footer .container > div:nth-child(4) form textarea{
+    resize:none;
+    height:85px
+}
+footer .container > div:nth-child(4) form input[type="submit"]{
+    background-color:#76c38f;
+    border:1px solid #76c38f;
+    border-radius:10px;
+    padding:8px 16px
+}
+/* End Footer */
+
+/* Start CopyRight */
+.copyright{
+    border-top:2px solid #3a3a3a;
+    background-color:#2b2b2b;
+    padding:10px;
+    color:#979797;
+}
+.copyright .container{
+    display:flex;
+    justify-content:space-between
+}
+
+/* Main Rules */
+*{
+    box-sizing:border-box;
+}
+.clear-fix{
+    clear:both
+}
+body{
+    line-height:1.5
+}
+.container{
+    width:80%;
+    margin:0 10%;
+}
